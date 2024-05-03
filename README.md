@@ -1,3 +1,4 @@
+VERSION FOR CSE547 CLASS!! 
   
 ![event](docs/source/figures/logo.png)                   
 
