@@ -8,7 +8,6 @@ last update: 05/27/2021
 
 """
 
-"""
 from __future__ import print_function
 import os
 os.environ['KERAS_BACKEND']='tensorflow'
@@ -27,12 +26,11 @@ import time
 
 import shutil
 import multiprocessing
-# from .EqT_utils import DataGenerator, _lr_schedule, cred2, PreLoadGenerator, data_reader
+from .EqT_utils import DataGenerator, _lr_schedule, cred2, PreLoadGenerator, data_reader
 import datetime
 from tqdm import tqdm
 from tensorflow.python.util import deprecation
 deprecation._PRINT_DEPRECATION_WARNINGS = False
-"""
 
 def custom_trainer(input_hdf5=None,
             input_csv=None,
